@@ -2,6 +2,8 @@
 
 A simple and intuitive task management web application built with React. Keep track of your daily tasks, mark them as completed, and manage your to-do list efficiently.
 
+🔗 **Live Demo:** https://task-tracker-react-kappa.vercel.app/
+
 ## Features
 
 - ✅ **Add Tasks** - Easily add new tasks using the input field
