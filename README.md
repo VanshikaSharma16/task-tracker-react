@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# Task Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and intuitive task management web application built with React. Keep track of your daily tasks, mark them as completed, and manage your to-do list efficiently.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- ✅ **Add Tasks** - Easily add new tasks using the input field
+- 📋 **View All Tasks** - See all your tasks in a clean, organized list
+- ✔️ **Mark as Completed** - Mark tasks as completed with a single click
+- 📊 **Task Status** - Each task displays whether it's "Pending" or "Completed"
+- 💾 **Local Storage** - Tasks are automatically saved to your browser's local storage
+- 🎨 **Modern UI** - Beautiful and responsive design with a gradient background
+- 🗑️ **Clear All** - Option to clear all tasks at once
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React** - Frontend framework
+- **CSS3** - Styling with modern design patterns
+- **LocalStorage API** - Data persistence
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Make sure you have Node.js and npm installed on your system:
+- Node.js (v14 or higher)
+- npm (v6 or higher)
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+```bash
+git clone <your-repository-url>
+cd task-tracker-react
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies:
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Running the Application
 
-### `npm run eject`
+To start the development server:
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The application will open in your browser at [http://localhost:3000](http://localhost:3000).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Building for Production
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To create a production build:
+```bash
+npm run build
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This creates an optimized production build in the `build` folder.
 
-## Learn More
+## How to Use
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Adding a Task**: Type your task in the input field and click the "Add Task" button
+2. **Viewing Tasks**: All tasks are displayed in a list below the input field
+3. **Completing a Task**: Click the "Complete" button next to any pending task to mark it as completed
+4. **Task Status**: Each task shows its status - "(Pending)" for incomplete tasks and "(Completed)" for completed ones
+5. **Clearing Tasks**: Use the "Clear All" button to remove all tasks at once
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Project Structure
 
-### Code Splitting
+```
+task-tracker-react/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── App.js          # Main application component
+│   ├── App.css         # Application styles
+│   └── index.js        # Entry point
+├── package.json
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Features Overview
 
-### Analyzing the Bundle Size
+- **Add Task Functionality**: Users can input tasks and add them to the list
+- **Task Display**: All tasks are shown with their current status
+- **Complete Task**: Tasks can be marked as completed
+- **Persistent Storage**: Tasks are saved in browser's localStorage and persist across sessions
+- **Clean UI**: Modern, responsive design that works on all screen sizes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Assignment Requirements
 
-### Making a Progressive Web App
+This project fulfills all the requirements for the Full-Stack Internship Assignment:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+✅ Input box to type a task  
+✅ Button to add the task  
+✅ List that displays all added tasks  
+✅ Each task shows whether it is 'Pending' or 'Completed'  
+✅ Ability to mark a task as completed  
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is open source and available for educational purposes.
 
-### Deployment
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Created as part of a Full-Stack Internship Assignment
+# task-tracker-react
